@@ -13,5 +13,5 @@ Schema.OsRpt = new SimpleSchema({
             }
 
         }
-    },
+    }
 });

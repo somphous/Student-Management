@@ -87,7 +87,7 @@ TabularTables.Register = new Tabular.Table({
                 return numeral(val).format('$ 0,0.00');
             }
         },
-        {data: "studentStatus", title: "Student Status"},
-        {data: "InformationBy", title: "Information By"},
+        // {data: "studentOccupation", title: "Student Occupation"},
+        // {data: "InformationBy", title: "Information By"},
     ]
 });

@@ -14,14 +14,17 @@
             {{#autoForm collection="Collection.Teacher" id="teacherInsert" type="insert"}}
                 <fieldset>
                     <div class="row">
-                        <div class="col-xs-6 col-md-6">
+                        <div class="col-xs-6 col-md-4">
                             {{>afQuickField name= "name"}}
                             {{>afQuickField name= "gender"}}
                             {{>afQuickField name= "birthDate"}}
                         </div>
-                        <div class="col-xs-6 col-md-6">
+                        <div class="col-xs-6 col-md-4">
                             {{>afQuickField name= "telephone"}}
                             {{>afQuickField name= "subject"}}
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            {{>afQuickField name= "description"}}
                         </div>
                         <!--<div class="col-xs-6 col-md-4">-->
                             <!--&lt;!&ndash;{{>afQuickField name= "day"}}&ndash;&gt;-->
@@ -44,14 +47,17 @@
                 {{#autoForm collection="Collection.Teacher" doc=this id="teacherUpdate" type="update"}}
                     <fieldset>
                         <div class="row">
-                            <div class="col-xs-6 col-md-6">
+                            <div class="col-xs-6 col-md-4">
                                 {{>afQuickField name= "name"}}
                                 {{>afQuickField name= "gender"}}
                                 {{>afQuickField name= "birthDate"}}
                             </div>
-                            <div class="col-xs-6 col-md-6">
+                            <div class="col-xs-6 col-md-4">
                                 {{>afQuickField name= "telephone"}}
                                 {{>afQuickField name= "subject"}}
+                            </div>
+                            <div class="col-xs-6 col-md-4">
+                                {{>afQuickField name= "description"}}
                             </div>
                             <!--<div class="col-xs-6 col-md-3">-->
                                 <!--&lt;!&ndash;{{>afQuickField name= "day"}}&ndash;&gt;-->

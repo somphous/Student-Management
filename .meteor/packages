@@ -75,3 +75,12 @@ check
 
 theara:collection-cache
 underscorestring:underscore.string
+meteorhacks:aggregate
+
+cfs:standard-packages
+cfs:gridfs
+yogiben:autoform-file
+peerlibrary:fs
+ostrio:meteor-root
+czbaker:lightbox2
+theara:lightbox-helpers
