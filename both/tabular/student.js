@@ -64,5 +64,18 @@ TabularTables.Student = new Tabular.Table({
         //     }
         //
         // },
+        // {
+        //     data: "photo",
+        //     title: "Photo",
+        //     render: function (val, type, doc) {
+        //         if (_.isUndefined(val)) {
+        //             return null;
+        //         } else {
+        //             var img = Files.findOne(val);
+        //
+        //             return lightbox(img.url(), doc._id, doc.name);
+        //         }
+        //     }
+        // }
     ]
 });

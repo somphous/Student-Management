@@ -4,6 +4,7 @@
 
         <h2 style="color: #00695C">
             <img class="img-dashboard" src="rabbit-king.png" width="30" height="30">RABBIT STUDENT MANAGEMENT DASHBOARD
+            {{> welcome_screen}}
         </h2>
 
         <div class="row">
@@ -128,7 +129,18 @@
             </div>
         </div>
     {{else}}
+        {{> welcome_screen}}
         <h2>Please Login!</h2>
         <h2>Then Contact to Admin</h2>
     {{/if}}
+</template>
+
+<!--welcome screen-->
+<template name="welcome_screen">
+    <!--Server date time-->
+    <h3 class="text-center">
+        <span class="label label-{{serverDateTime.css}}">
+            <i class="fa fa-calendar"></i> {{serverDateTime.val}}
+        </span>
+    </h3>
 </template>
